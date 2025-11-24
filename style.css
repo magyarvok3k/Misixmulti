@@ -1,3 +1,9 @@
+body {
+    background: #111;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
 .video-container {
     display: flex;
@@ -83,10 +89,33 @@ nav a:hover {
  size: 4rem;
 }
 
+/* Telefon (max 600px szélesség) */
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 18px;
+        padding: 12px;
+    }
+}
+
 body {
     background-image: url('https://cdn.discordapp.com/attachments/1200123892958777436/1442589603482701824/image.png?ex=6925fbc3&is=6924aa43&hm=fb91b9e32a31858f3f9cbae0e93bf8281b9c73260db5da7f979cde9e0f6b0cbd&'); /* vagy 'images/background.jpg' ha subfolder */
     background-size: cover; /* a kép kitölti az egész hátteret */
     background-repeat: no-repeat; /* ne ismét    background-size: cover; /*elje a képet */
     background-position: center; /* középre igazítva */
 }
-
