@@ -41,3 +41,50 @@ body {
 #fullscreenBtn:hover {
     background: rgba(0,0,0,0.8);
 }
+
+.hero {
+  text-align: center;
+  background: #ffd1dc;
+  color: white;
+  padding: 4rem 1rem;
+}
+
+.hero {
+  padding: 2rem;
+  background-color:  #000000;
+  color: #ffd1dc;
+  text-align: center;
+  margin: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000000;
+}
+
+header {
+  background: #000000;
+  color: rgb(255, 255, 255);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.reszek {
+ color: forestgreen;
+ size: 1rem;
+}
+
+.szoveg {
+ color: forestgreen;
+ size: 4rem;
+}
